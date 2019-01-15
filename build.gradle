@@ -29,8 +29,9 @@ repositories {
 
 dependencies {
     testImplementation 'junit:junit:4.12'
+	implementation group: 'org.eclipse.jetty.aggregate', name: 'jetty-all', version: '9.4.14.v20181114'//, ext: 'pom'
 
-	implementation group: 'mirrg.boron', name: 'mirrg.boron.util', version: '3.0+'
+	implementation group: 'mirrg.boron', name: 'mirrg.boron.util', version: '3.1+'
 }
 
 // 成果物
