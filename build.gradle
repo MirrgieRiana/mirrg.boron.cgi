@@ -37,6 +37,7 @@ dependencies {
 // 成果物
 
 jar {
+	exclude("*.gitkeep*")
 	manifest {
 		attributes 'Implementation-Title': 'Gradle Quickstart'
 		attributes 'Implementation-Version': version
